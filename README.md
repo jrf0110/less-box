@@ -18,26 +18,26 @@ __Usage:__
 
 Use as Less Mixins
 
-### #grid > .display()
+### #box > .display()
 
 Sets the display to `box`
 
-### #grid > .align( @orientation )
+### #box > .align( @orientation )
 
 Sets the `box-align` property to `@orientation`
 
-### #grid > .orient( @orientation )
+### #box > .orient( @orientation )
 
 Sets the `box-orient` property to `@orientation`
 
-### #grid > .pack( @orientation )
+### #box > .pack( @orientation )
 
 Sets the `box-pack` property to `@orientation`
 
-### #grid > .flex( @val )
+### #box > .flex( @val )
 
 Sets the `flex` property
 
-### #grid > .direction( @direction )
+### #box > .direction( @direction )
 
 Sets the `box-direction` property
