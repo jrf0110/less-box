@@ -1,0 +1,50 @@
+#box {
+  .display() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: box;
+  }
+
+  .align( @orientation ){
+    -webkit-box-align: @orientation;
+    -moz-box-align: @orientation;
+    -ms-box-align: @orientation;
+    box-align: @orientation;
+  }
+
+  .orient( @orientation ){
+    -webkit-box-orient: @orientation;
+    -moz-box-orient: @orientation;
+    -ms-box-orient: @orientation;
+    box-orient: @orientation;
+  }
+
+  .pack( @orientation ){
+    -webkit-box-pack: @orientation;
+    -moz-box-pack: @orientation;
+    -ms-box-pack: @orientation;
+    box-pack: @orientation;
+  }
+
+  .flex( @val ){
+    -webkit-box-flex: @val;
+    -moz-box-flex: @val;
+    -ms-box-flex: @val;
+    box-flex: @val;
+  }
+
+  .ordinal-group( @group ){
+    -webkit-box-ordinal-group: @group;
+    -moz-box-ordinal-group: @group;
+    -ms-box-ordinal-group: @group;
+    box-ordinal-group: @group;
+  }
+
+  .direction( @direction ){
+    -webkit-box-direction: @direction;
+    -moz-box-direction: @direction;
+    -ms-box-direction: @direction;
+    box-direction: @direction;
+  }
+}
