@@ -1,4 +1,7 @@
 module.exports = function( grunt ){
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-less');
 
   var config = {
@@ -22,7 +25,7 @@ module.exports = function( grunt ){
   , less: {
       dev: {
         files: {
-          "css/core.gen.css":          "less/core.less"
+          
         }
       }
     }
